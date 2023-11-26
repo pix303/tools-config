@@ -6,9 +6,9 @@ bufferline = "multiple"
 
 [keys.normal]
 esc =["collapse_selection","keep_primary_selection"]
+A-r = ":sh cargo run"
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
-
