@@ -46,6 +46,8 @@ inlayHints.closureReturnTypeHints.enable = "with_block"
 inlayHints.discriminantHints.enable = "fieldless"
 inlayHints.lifetimeElisionHints.enable = "skip_trivial"
 inlayHints.typeHints.hideClosureInitialization = false
+check.command = "clippy"
+
 
 
 [language-server.typescript-language-server]
@@ -101,7 +103,7 @@ file-types = ["rs"]
 roots = ["Cargo.toml", "Cargo.lock"]
 auto-format = true
 comment-token = "//"
-language-servers = [ "rust-analyzer" ]
+language-servers = [ "rust-analyzer", "clippy"]
 indent = { tab-width = 4, unit = "    " }
 
 [language.auto-pairs]

@@ -1,0 +1,3 @@
+[keybindings.custom]
+command = "zen-mode"
+keys = "ctrl+shift+z"
